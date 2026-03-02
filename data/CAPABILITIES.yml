@@ -1,0 +1,30 @@
+# Target Capabilities to Track
+
+caps:
+  - id: "cap_code_react_hooks"
+    domain: "Software_Engineering"
+    skill: "React_Complex_Hooks"
+    description: "The ability to correctly implement complex nested React hooks (e.g., useCallback with intricate dependencies) without introducing stale closures or infinite loops."
+    success_criteria: "Generates code that requires zero manual debugging for dependency arrays."
+    current_status: "Frontier" # Options: Outside_Bubble, Frontier, Inside_Bubble
+
+  - id: "cap_security_audit_sql"
+    domain: "Cybersecurity"
+    skill: "SQL_Injection_Vulnerability_Detection"
+    description: "The ability to scan complex, multi-join raw SQL queries and identify subtle ORM-bypass injection vulnerabilities."
+    success_criteria: "Identifies 95%+ of vulnerabilities without false positives on standard web application backends."
+    current_status: "Outside_Bubble"
+
+  - id: "cap_infrastructure_terraform"
+    domain: "DevOps"
+    skill: "Terraform_Multi_Cloud_Scaffolding"
+    description: "The ability to generate functional Terraform scripts that deploy a secure, load-balanced application across AWS and GCP simultaneously."
+    success_criteria: "Scripts apply successfully on first run without IAM or networking errors."
+    current_status: "Frontier"
+
+  - id: "cap_data_extraction_unstructured"
+    domain: "Information_Analysis"
+    skill: "Unstructured_PDF_Table_Parsing"
+    description: "The ability to extract tabular financial data from scanned, un-OCR'd PDFs with merged cells and complex headers into a clean JSON format."
+    success_criteria: "100% accuracy on numeric values and correct row/column alignment."
+    current_status: "Inside_Bubble"

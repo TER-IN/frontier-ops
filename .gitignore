@@ -1,0 +1,21 @@
+docs/CONTEXT.md
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+
+# Raw Scraped Data
+data/raw/
+# data/extracted_claims.json
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

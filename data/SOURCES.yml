@@ -1,0 +1,30 @@
+# Trusted Sources to Monitor
+
+sources:
+  - id: "src_youtube_ai_engineer"
+    type: "youtube_channel"
+    url: "https://www.youtube.com/@AI_Engineer"
+    trust_weight: 0.8
+    frequency: "weekly"
+    description: "Focuses on applied AI engineering, agentic workflows, and practical limits of current models."
+
+  - id: "src_blog_anthropic_research"
+    type: "rss_feed"
+    url: "https://www.anthropic.com/news.rss"
+    trust_weight: 0.95
+    frequency: "daily"
+    description: "Official research blog from Anthropic. High signal for new model capabilities and safety research."
+
+  - id: "src_reddit_local_llama"
+    type: "subreddit"
+    url: "https://www.reddit.com/r/LocalLLaMA/"
+    trust_weight: 0.6
+    frequency: "daily"
+    description: "Community testing of open-weight models. Good for finding specific failure modes in niche tasks, but requires high verification."
+
+  - id: "src_twitter_list_ai_researchers"
+    type: "twitter_list"
+    url: "https://twitter.com/i/lists/123456789" # Placeholder
+    trust_weight: 0.75
+    frequency: "hourly"
+    description: "Curated list of leading AI researchers sharing zero-day findings and experiments."
